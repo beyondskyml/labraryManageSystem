@@ -13,6 +13,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+import javax.swing.UIManager;
 
 import tk.beyondsky.Client.Client;
 import tk.beyondsky.TransportInfo.LoginInfo;
@@ -52,6 +53,13 @@ class LoginFrame extends JFrame{
 	}
 	
 	private void initLoginPanel(){
+		try {
+			// 将LookAndFeel设置成Windows样式
+			UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		
 		setLayout(new GridBagLayout());
 		GridBagConstraints gridConfig = new GridBagConstraints();
 
