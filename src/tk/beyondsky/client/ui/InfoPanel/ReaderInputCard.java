@@ -1,4 +1,4 @@
-package tk.beyondsky.UI.InfoPanel;
+package tk.beyondsky.client.ui.InfoPanel;
 
 import java.awt.EventQueue;
 import java.awt.GridBagConstraints;
@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import tk.beyondsky.UI.CommonUI;
+import tk.beyondsky.client.ui.CommonUI;
 
 public class ReaderInputCard extends CommonUI {
 	private JPanel readerInputPanel;

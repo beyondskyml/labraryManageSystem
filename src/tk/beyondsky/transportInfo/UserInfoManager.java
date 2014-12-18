@@ -1,4 +1,4 @@
-package tk.beyondsky.TransportInfo;
+package tk.beyondsky.transportInfo;
 
 import java.util.ArrayList;
 

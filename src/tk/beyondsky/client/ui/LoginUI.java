@@ -1,4 +1,4 @@
-package tk.beyondsky.UI;
+package tk.beyondsky.client.ui;
 
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -15,8 +15,8 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
 
-import tk.beyondsky.Client.Client;
-import tk.beyondsky.TransportInfo.LoginInfo;
+import tk.beyondsky.client.Client;
+import tk.beyondsky.transportInfo.LoginInfo;
 
 public class LoginUI {
 	public static void main(String[] args) {

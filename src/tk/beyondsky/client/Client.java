@@ -1,4 +1,4 @@
-package tk.beyondsky.Client;
+package tk.beyondsky.client;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,9 +7,9 @@ import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import tk.beyondsky.TransportInfo.LoginInfo;
-import tk.beyondsky.TransportInfo.OnlineUserTable;
-import tk.beyondsky.TransportInfo.UserInfo;
+import tk.beyondsky.transportInfo.LoginInfo;
+import tk.beyondsky.transportInfo.OnlineUserTable;
+import tk.beyondsky.transportInfo.UserInfo;
 
 
 public class Client {

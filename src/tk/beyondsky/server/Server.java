@@ -1,11 +1,11 @@
-package tk.beyondsky.Server;
+package tk.beyondsky.server;
 
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import tk.beyondsky.TransportInfo.UserInfoManager;
+import tk.beyondsky.transportInfo.UserInfoManager;
 
 
 public class Server {

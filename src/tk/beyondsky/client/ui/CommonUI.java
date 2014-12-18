@@ -1,4 +1,4 @@
-package tk.beyondsky.UI;
+package tk.beyondsky.client.ui;
 
 import java.awt.GridBagConstraints;
 import java.awt.event.ActionEvent;

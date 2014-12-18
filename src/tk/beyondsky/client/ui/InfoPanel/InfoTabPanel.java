@@ -1,4 +1,4 @@
-package tk.beyondsky.UI.InfoPanel;
+package tk.beyondsky.client.ui.InfoPanel;
 
 import java.awt.CardLayout;
 import java.awt.Color;
@@ -15,7 +15,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import tk.beyondsky.UI.CommonUI;
+import tk.beyondsky.client.ui.CommonUI;
 
 public class InfoTabPanel extends CommonUI{
 	// 面板

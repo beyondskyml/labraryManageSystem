@@ -1,4 +1,4 @@
-package tk.beyondsky.UI;
+package tk.beyondsky.client.ui;
 
 import java.awt.EventQueue;
 import java.awt.GridLayout;
@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 import javax.swing.UIManager;
 
-import tk.beyondsky.UI.InfoPanel.InfoTabPanel;
+import tk.beyondsky.client.ui.InfoPanel.InfoTabPanel;
 
 public class AdminUI {
 	public static void main(String[] args){
